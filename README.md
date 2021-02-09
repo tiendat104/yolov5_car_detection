@@ -23,3 +23,5 @@ python detect.py --weights weights/best_car.pt --img 416 --conf 0.4 --source inf
 
 By running this command, it would detect car in all images saved in folder "inference/image", and the result would be saved into folder "inference/output".
 
+# Demo result
+![](assets/demo.jpg)
