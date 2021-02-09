@@ -4,7 +4,11 @@ In this project, i implement the task of car detection by using yolov5 model.
 # Data preparation
 For visualization of dataset architecture, i only upload a few images and labels into the "dataset/car" folder. You can prepare your own custom dataset by follow format of the folder "dataset/car" of this project. 
 
-Data used for training is placed in folder "dataset/car", which has 3 subfolders "train", "test" and "valid". In each of these 3 folders, there are 2 subfolders "images" and "labels" that store images and annotations for corresponding images. For example, file "dataset/car/train/labels/00007_jpg.rf.449c08b30f6d323bfbf203d65fd50877.txt" contains bounding box annotation for the image "dataset/ar/train/images/00007_jpg.rf.449c08b30f6d323bfbf203d65fd50877.jpg". The annotation information is stored in the yolov5 format.
+Data used for training is placed in folder "dataset/car", which has 3 subfolders "train", "test" and "valid". In each of these 3 folders, there are 2 subfolders "images" and "labels" that store images and annotations for corresponding images. 
+
+For example, file "dataset/car/train/labels/00007_jpg.rf.449c08b30f6d323bfbf203d65fd50877.txt" contains bounding box annotation for the image "dataset/ar/train/images/00007_jpg.rf.449c08b30f6d323bfbf203d65fd50877.jpg". 
+
+The annotation information is stored in the yolov5 format.
 
 For more detail on how to prepare custom dataset for training, please follow guide from this link : https://blog.roboflow.com/how-to-train-yolov5-on-a-custom-dataset/
 
